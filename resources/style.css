@@ -13,6 +13,10 @@ a {
   text-decoration: underline;
 }
 
+div {
+  display: block;
+}
+
 header {
   width: 100%;
   height: 69px;
@@ -43,6 +47,46 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  height: 700px;
+  background-image:
+    url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+}
+#mission .content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+h2, h3, h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  font-weight: bold;
+}
+
+
+  
+
+
 
 
   
